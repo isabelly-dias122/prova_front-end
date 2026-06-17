@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f4f6f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: #004b87;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+    color: #004b87;
+}
+
+form{
+    background: white;
+    width: 600px;
+    max-width: 95%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+label{
+    font-weight: 500;
+    color: #333;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus{
+    border-color: #004b87;
+}
+
+input[type="radio"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn{
+    background: #f1c40f;
+}
+
+.btn:hover{
+    background: #d4ac0d;
+}
+
+button[type="button"]{
+    background: #004b87;
+    color: white;
+}
+
+button[type="button"]:hover{
+    background: #003a6a;
+}
+
+#mensagemErro{
+    color: #e74c3c;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    background: #004b87;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+@media (max-width: 600px){
+    form{
+        padding: 15px;
+    }
+}

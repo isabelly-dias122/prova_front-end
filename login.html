@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Portal do Candidato - ENEM</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Portal do Candidato - ENEM</h1>
+</header>
+
+<div class="card">
+
+    <h2>🔐 Tela de Login</h2>
+    <p>Email e senha para acessar o sistema.</p>
+
+    <form onsubmit="return validarLogin()">
+
+        <input type="text" id="email" class="input-text" placeholder="Seu email">
+        <input type="password" id="senha" class="input-text" placeholder="Sua senha">
+
+        <button type="submit" class="btn">Entrar</button>
+
+    </form>
+
+    <p>
+        <a href="inscricao.html">Cadastrar Novo Usuário</a>
+    </p>
+
+    <p id="feedback" class="feedback"></p>
+
+</div>
+
+<footer>
+    <p>© 2026 - Sistema de Inscrição ENEM. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
