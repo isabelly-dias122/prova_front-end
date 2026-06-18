@@ -12,6 +12,12 @@
 
 <header>
     <h1>Portal do Candidato - ENEM</h1>
+  <nav>
+    <a href="painel.html">Painel</a>
+    <a href="cursos.html">Cursos</a>
+    <a href="inscricao.html">Inscrição</a>
+    <a href="login.html">Sair</a>
+  </nav>
 </header>
 
 <h2>Inscrição ENEM</h2>
@@ -36,7 +42,15 @@
     <label for="cpf">CPF:</label><br>
     <input type="text" id="cpf" required><br>
     <br>
+    
+    <label for="lingua">Língua Estrangeira:</label><br>
+    <select id="lingua" required>
+        <option value="">Selecione</option>
+        <option value="Inglês">Inglês</option>
+        <option value="Espanhol">Espanhol</option>
+         </select>
 
+    <br><br>
     
     <label for="pai">Nome do pai:</label><br>
     <input type="text" id="pai"><br>
